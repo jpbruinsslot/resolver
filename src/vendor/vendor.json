@@ -1,0 +1,67 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "DWPL08pD/SQ2GzLfoR7ZXnjj7Sw=",
+			"path": "github.com/Sirupsen/logrus",
+			"revision": "4b6ea7319e214d98c938f12692336f7ca9348d6b",
+			"revisionTime": "2016-03-17T14:11:10Z"
+		},
+		{
+			"checksumSHA1": "lzh7lV7cnejOlSbSgoWr2Gq9NR4=",
+			"path": "github.com/abbot/go-http-auth",
+			"revision": "ca62df34b58d26b6a064246c21c0a18f97813173",
+			"revisionTime": "2016-01-18T22:52:52Z"
+		},
+		{
+			"checksumSHA1": "i27YHcyHY4stkXm12/ztso3wHUo=",
+			"path": "github.com/codegangsta/cli",
+			"revision": "71f57d300dd6a780ac1856c005c4b518cfd498ec",
+			"revisionTime": "2016-04-04T01:54:34Z"
+		},
+		{
+			"checksumSHA1": "7PKpRpg6flTIWLCcdILckJ1b2ww=",
+			"path": "github.com/codegangsta/negroni",
+			"revision": "823c52cfbd3c6a58eda463c28191ce03e86caf50",
+			"revisionTime": "2016-05-10T12:44:57Z"
+		},
+		{
+			"checksumSHA1": "iIUYZyoanCQQTUaWsu8b+iOSPt4=",
+			"path": "github.com/gorilla/context",
+			"revision": "1ea25387ff6f684839d82767c1733ff4d4d15d0a",
+			"revisionTime": "2016-02-26T21:46:23Z"
+		},
+		{
+			"checksumSHA1": "xF+WqeL9eAlbUkiO2bLghMQzO4k=",
+			"path": "github.com/gorilla/mux",
+			"revision": "0eeaf8392f5b04950925b8a69fe70f110fa7cbfc",
+			"revisionTime": "2016-03-17T21:34:30Z"
+		},
+		{
+			"checksumSHA1": "vE43s37+4CJ2CDU6TlOUOYE0K9c=",
+			"path": "golang.org/x/crypto/bcrypt",
+			"revision": "3fbbcd23f1cb824e69491a5930cfeff09b12f4d2",
+			"revisionTime": "2016-04-06T16:11:13Z"
+		},
+		{
+			"checksumSHA1": "udD2DzUPFZbMVXP0VNADhef4zKk=",
+			"path": "golang.org/x/crypto/blowfish",
+			"revision": "3fbbcd23f1cb824e69491a5930cfeff09b12f4d2",
+			"revisionTime": "2016-04-06T16:11:13Z"
+		},
+		{
+			"checksumSHA1": "pancewZW3HwGvpDwfH5Imrbadc4=",
+			"path": "golang.org/x/net/context",
+			"revision": "e45385e9b226f570b1f086bf287b25d3d4117776",
+			"revisionTime": "2016-04-07T02:17:48Z"
+		},
+		{
+			"checksumSHA1": "c8iMfP5+K3GEg26HJiO0OVVLiM4=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "f64b50fbea64174967a8882830d621a18ee1548e",
+			"revisionTime": "2016-04-14T13:31:22Z"
+		}
+	],
+	"rootPath": "github.com/erroneousboat/resolver/src"
+}
