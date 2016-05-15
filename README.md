@@ -1,6 +1,8 @@
 Resolver
 ========
 
+[![Docker Hub](https://img.shields.io/badge/docker-erroneousboat%2Fresolver-blue.svg)](https://registry.hub.docker.com/u/erroneousboat/resolver/)
+
 Overview
 --------
 
@@ -75,13 +77,14 @@ The easiest of running this service is using docker. A binary is also provided
 in `bin/` if you want to run it that way.
 
 ```bash
-$ docker build -t resolver .
-$ docker run \
+$ docker run -it \
     -p 4000:4000 \
     -e "RESOLVER_USER=[user-name]" \
     -e "RESOLVER_KEY=[key]" \
     -v /dir-on-host:/data \
-    -it resolver
+    --name resolver \
+    erroneousboat/resolver
+    
 
 $ curl -U [user-name]:[password] http://localhost:4000/assets/
 ```
