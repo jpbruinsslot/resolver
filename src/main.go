@@ -54,6 +54,12 @@ func main() {
 			Name:  "debug, d",
 			Usage: "run in debug mode",
 		},
+		cli.StringFlag{
+			Name:   "host",
+			Value:  "0.0.0.0",
+			Usage:  "host on which to serve",
+			EnvVar: "RESOLVER_HOST",
+		},
 		cli.IntFlag{
 			Name:   "port, p",
 			Value:  4000,
@@ -88,7 +94,7 @@ func main() {
 		n := ServerSetup()
 
 		// run the server
-		n.Run(fmt.Sprintf("0.0.0.0:%d", c.Int("port")))
+		n.Run(fmt.Sprintf("%s:%d", c.String("host"), c.Int("port")))
 	}
 
 	app.Run(os.Args)
